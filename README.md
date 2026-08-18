@@ -9,8 +9,9 @@ Acdyon Technologies take-home.
 
 ## Links
 
-- Netlify (canonical): set after deploy
-- GitHub: https://github.com/pnvharisuryaprakashreddy/keel-runway
+- **Netlify (submit this):** [https://keel-runway-acdyon.netlify.app](https://keel-runway-acdyon.netlify.app)
+- Ingest demo: [https://keel-runway-acdyon.netlify.app/ingest](https://keel-runway-acdyon.netlify.app/ingest)
+- GitHub: [https://github.com/pnvharisuryaprakashreddy/keel-runway](https://github.com/pnvharisuryaprakashreddy/keel-runway)
 
 ## Run locally
 
