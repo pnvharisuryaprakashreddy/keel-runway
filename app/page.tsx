@@ -9,7 +9,7 @@ import { SampleBoard } from "@/components/SampleBoard";
 export default function Home() {
   return (
     <>
-      <Header />
+      <Header active="home" />
       <main>
         <Hero />
         <SampleBoard />

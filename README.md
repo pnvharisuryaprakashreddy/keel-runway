@@ -1,12 +1,16 @@
 # Keel
 
-A homepage for a product that does not exist yet: a runway board for independent studios. Built as the Part 2 take-home for Acdyon Technologies.
+Acdyon Technologies take-home.
 
-There is no waitlist and no fake social proof. The sample board is the product.
+- **Part 2** — homepage for a product pitch (runway board)
+- **Part 1** — job ingest against public APIs, not LinkedIn
+- **Decisions** — [DECISIONS.md](./DECISIONS.md)
+- **Ingest design** — [INGESTION.md](./INGESTION.md)
 
-- Live: [https://pnvharisuryaprakashreddy.github.io/keel-runway/](https://pnvharisuryaprakashreddy.github.io/keel-runway/)
-- Repo: [https://github.com/pnvharisuryaprakashreddy/keel-runway](https://github.com/pnvharisuryaprakashreddy/keel-runway)
-- Decisions: [DECISIONS.md](./DECISIONS.md)
+## Links
+
+- Netlify (canonical): set after deploy
+- GitHub: https://github.com/pnvharisuryaprakashreddy/keel-runway
 
 ## Run locally
 
@@ -15,15 +19,11 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+- Home: http://localhost:3000
+- Ingest: http://localhost:3000/ingest
 
 ## What to look at
 
-- Hero at 390px and 1440px
-- Sample board: toggle unpaid invoices / unsigned work, defer a bill
-- The honesty section (intentionally no testimonials)
-- One easter egg, the old-game kind
-
-## Stack
-
-Next.js 16, React 19, Tailwind v4, no component library. Cash projection lives in `lib/runway.ts` so the hero number and the board share the same model.
+- Hero + sample board (toggle unpaid invoices, unsigned work, defer a bill)
+- `/ingest` — live listings, source health, “simulate primary block”
+- Konami code on either page

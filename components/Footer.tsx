@@ -1,16 +1,17 @@
+import Link from "next/link";
 import { KeelMark } from "./KeelMark";
 
 export function Footer() {
   return (
     <footer className="site-footer">
       <div className="wrap">
-        <a className="wordmark" href="#top">
+        <Link className="wordmark" href="/">
           <KeelMark />
           keel
-        </a>
+        </Link>
         <p style={{ margin: 0, maxWidth: 520, lineHeight: 1.5 }}>
-          Built as a frontend take-home for Acdyon Technologies. One page, one
-          product idea, no fabricated social proof.
+          Acdyon take-home: a homepage and a public-API ingest pipeline. No
+          fabricated social proof, no LinkedIn scrape.
         </p>
       </div>
       <div className="boat-dock" aria-hidden="true">

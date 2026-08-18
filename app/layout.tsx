@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { Geist_Mono, Newsreader, Outfit } from "next/font/google";
 import "./globals.css";
 
-const basePath = process.env.GITHUB_PAGES === "1" ? "/keel-runway" : "";
-
 const sans = Outfit({
   variable: "--font-outfit",
   subsets: ["latin"],
@@ -27,7 +25,7 @@ export const metadata: Metadata = {
   title: "Keel — The honest number",
   description:
     "A runway board for independent studios. Money in the bank, money that's promised, money that leaves. Nothing forecasted.",
-  icons: { icon: `${basePath}/favicon.svg` },
+  icons: { icon: "/favicon.svg" },
 };
 
 export default function RootLayout({

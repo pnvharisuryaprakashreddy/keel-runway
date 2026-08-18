@@ -748,6 +748,83 @@ html[data-egg="fair"] .boat {
   }
 }
 
+.ingest-title {
+  margin: 0;
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.source-grid {
+  display: grid;
+  gap: 12px;
+  padding: 18px;
+}
+
+@media (min-width: 800px) {
+  .source-grid {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 22px 24px 8px;
+  }
+}
+
+.source-card {
+  padding: 16px;
+  border: 1px solid var(--color-line);
+  border-radius: 6px;
+  background: var(--color-panel-2);
+}
+
+.source-card h2 {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+.source-card p {
+  margin: 0;
+  color: var(--color-cream-dim);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.source-card.is-ok {
+  border-color: color-mix(in srgb, var(--color-in) 45%, var(--color-line));
+}
+
+.source-card.is-error,
+.source-card.is-timeout,
+.source-card.is-empty {
+  border-color: color-mix(in srgb, var(--color-out) 40%, var(--color-line));
+}
+
+.ingest-note {
+  margin: 0 18px 16px;
+  color: var(--color-cream-dim);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.ingest-note.error {
+  color: var(--color-out);
+}
+
+.ledger a {
+  color: var(--color-cream);
+  text-decoration: none;
+}
+
+.ledger a:hover {
+  color: var(--color-brass);
+}
+
+nav a[aria-current="page"] {
+  color: var(--color-cream);
+}
+
 @media (max-width: 639px) {
   .hide-sm {
     display: none;
