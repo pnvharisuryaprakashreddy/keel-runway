@@ -4,6 +4,10 @@ A homepage for a product that does not exist yet: a runway board for independent
 
 There is no waitlist and no fake social proof. The sample board is the product.
 
+- Live: [https://pnvharisuryaprakashreddy.github.io/keel-runway/](https://pnvharisuryaprakashreddy.github.io/keel-runway/)
+- Repo: [https://github.com/pnvharisuryaprakashreddy/keel-runway](https://github.com/pnvharisuryaprakashreddy/keel-runway)
+- Decisions: [DECISIONS.md](./DECISIONS.md)
+
 ## Run locally
 
 ```bash
